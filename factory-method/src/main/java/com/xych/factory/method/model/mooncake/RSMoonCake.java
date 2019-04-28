@@ -1,8 +1,22 @@
 package com.xych.factory.method.model.mooncake;
 
-public class RSMoonCake implements MoonCake {
+import com.xych.factory.method.model.chef.Chef;
+
+public class RSMoonCake extends AbstractMoonCake {
+    public RSMoonCake() {
+        super();
+    }
+
+    public RSMoonCake(Chef chef) {
+        super(chef);
+    }
+
     @Override
     public String toString() {
-        return "RouSong MoonCake";
+        String str = "RouSong MoonCake";
+        if(chef != null) {
+            str += " by " + chef;
+        }
+        return str;
     }
 }
