@@ -44,5 +44,6 @@
         <module>factory-kit</module>
         <module>factory-method</module>
         <module>abstract-factory</module>
+        <module>singleton</module>
     </modules>
 </project>
