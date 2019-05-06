@@ -93,6 +93,8 @@ public class LazyDoubleCheckSingleton {
 ```
 
 ### 2.3、静态内部类模式
+> <b>推荐使用</b>
+
 > 线程安全、懒加载。（类，只有在使用的时候才会被加载）
 ``` java
 public class LazyInnerClassSingleton {
@@ -113,6 +115,7 @@ public class LazyInnerClassSingleton {
 ```
 
 ## 3、枚举方式实现单例
+> <b>推荐使用</b>
 ``` java
 public enum EnumSingleton {
     INSTANCE;
