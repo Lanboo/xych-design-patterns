@@ -1,7 +1,7 @@
 package com.xych.singleton.lazy;
 
 public class LazyDoubleCheckSingleton {
-    private static LazyDoubleCheckSingleton singleton = null;
+    private volatile static LazyDoubleCheckSingleton singleton = null;
 
     private LazyDoubleCheckSingleton() {
         // 防止利用反射机制破坏单例模式
