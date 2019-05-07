@@ -9,16 +9,16 @@ import net.sf.cglib.proxy.MethodProxy;
 
 @Slf4j
 public class DaoCglibProxy implements MethodInterceptor {
-    private IDao target;
+    private Dao target;
     private Log logger;
 
-    public DaoCglibProxy(IDao target, Log logger) {
+    public DaoCglibProxy(Dao target, Log logger) {
         this.target = target;
         this.logger = logger;
     }
 
     @SuppressWarnings("unchecked")
-    public <T extends IDao> T getInstance() {
+    public <T extends Dao> T getInstance() {
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(this.target.getClass());
         enhancer.setCallback(this);
