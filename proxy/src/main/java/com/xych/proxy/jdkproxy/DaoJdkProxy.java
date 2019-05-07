@@ -7,11 +7,11 @@ import java.lang.reflect.Proxy;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class DaoJdkProxy1 implements InvocationHandler {
+public class DaoJdkProxy implements InvocationHandler {
     private IDao dao;
     private Log logger;
 
-    public DaoJdkProxy1(IDao dao, Log logger) {
+    public DaoJdkProxy(IDao dao, Log logger) {
         this.dao = dao;
         this.logger = logger;
     }
