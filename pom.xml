@@ -46,5 +46,6 @@
         <module>abstract-factory</module>
         <module>singleton</module>
         <module>prototype</module>
+        <module>proxy</module>
     </modules>
 </project>
