@@ -59,5 +59,6 @@
         <module>prototype</module>
         <module>proxy</module>
         <module>delegation</module>
+        <module>strategy</module>
     </modules>
 </project>
