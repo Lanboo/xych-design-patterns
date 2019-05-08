@@ -58,5 +58,6 @@
         <module>singleton</module>
         <module>prototype</module>
         <module>proxy</module>
+        <module>delegation</module>
     </modules>
 </project>
