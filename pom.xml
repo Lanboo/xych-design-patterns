@@ -62,5 +62,6 @@
         <module>strategy</module>
         <module>template-method</module>
         <module>adapter</module>
+        <module>decorator</module>
     </modules>
 </project>
