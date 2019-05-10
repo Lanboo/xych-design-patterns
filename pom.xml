@@ -61,5 +61,6 @@
         <module>delegation</module>
         <module>strategy</module>
         <module>template-method</module>
+        <module>adapter</module>
     </modules>
 </project>
