@@ -63,5 +63,6 @@
         <module>template-method</module>
         <module>adapter</module>
         <module>decorator</module>
+        <module>observer</module>
     </modules>
 </project>
