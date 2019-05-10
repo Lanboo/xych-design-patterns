@@ -1,11 +1,6 @@
-package com.xych.decorator;
+package com.xych.decorator.battercake.v2;
 
-import com.xych.decorator.battercake.v2.BaseBattercake;
-import com.xych.decorator.battercake.v2.Battercake;
-import com.xych.decorator.battercake.v2.EggDecorator;
-import com.xych.decorator.battercake.v2.SausageDecorator;
-
-public class App {
+public class BattercakeTest {
     public static void main(String[] args) {
         Battercake battercake;
         //路边摊买一个煎饼
